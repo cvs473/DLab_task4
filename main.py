@@ -34,23 +34,9 @@ def poker_test(bit_str):
     else: return False
 
 def runs_lengths_test(bit_str):
-    ones_map = {
-        "1" : 0,
-        "2" : 0,
-        "3" : 0,
-        "4" : 0,
-        "5" : 0,
-        "6+" : 0
-            }
+    ones_map = {"1" : 0, "2" : 0, "3" : 0, "4" : 0, "5" : 0, "6+" : 0}
     ones_len = 1
-    zeros_map = {
-        "1" : 0,
-        "2" : 0,
-        "3" : 0,
-        "4" : 0,
-        "5" : 0,
-        "6+" : 0
-            }
+    zeros_map = {"1" : 0, "2" : 0, "3" : 0, "4" : 0, "5" : 0, "6+" : 0}
     zeros_len = 1
 
     for i in range(0, len(bit_str)-1):
